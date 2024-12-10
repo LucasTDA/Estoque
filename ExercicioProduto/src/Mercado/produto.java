@@ -5,7 +5,7 @@ public class produto {
     //atributos da classe
 public String nome = "TV";
 public float preco = 900;
-public int quantidade = 11;
+public int quantidade = 10;
 private  float valorTotalEstoque;
 
 //Construtor da classe para atualizar o valor do esrtoque
