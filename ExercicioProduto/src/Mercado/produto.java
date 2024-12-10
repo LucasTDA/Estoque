@@ -20,7 +20,7 @@ private  float valorTotalEstoque;
         return valorTotalEstoque;
     }
 
-    // Metodo para Adicionar itens ao estoqu
+    // Metodo para Adicionar itens ao estoque
     public void adicionarItens (int qtdadeAdiciona){
 
        quantidade += qtdadeAdiciona;
