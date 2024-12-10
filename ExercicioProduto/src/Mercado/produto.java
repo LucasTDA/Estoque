@@ -8,7 +8,7 @@ public float preco = 900;
 public int quantidade = 10;
 private  float valorTotalEstoque;
 
-//Construtor da classe para atualizar o valor do esrtoque
+//Construtor da classe para atualizar o valor do estoque
     public produto() {
 
         valorTotalEstoque = preco * quantidade;
@@ -20,7 +20,7 @@ private  float valorTotalEstoque;
         return valorTotalEstoque;
     }
 
-    // Função para Adicionar itens ao estoque
+    // Metodo para Adicionar itens ao estoque
     public void adicionarItens (int qtdadeAdiciona){
 
        quantidade += qtdadeAdiciona;
@@ -28,7 +28,7 @@ private  float valorTotalEstoque;
 
     }
 
-    // Função para Remover itens do estoque
+    // Metodo para Remover itens do estoque
     public void removerItens(int qtdadeRemove){
         quantidade -= qtdadeRemove;
 
